@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+  <meta charset="utf-8" />  
+  <link rel="stylesheet" href="css/main.css"/>
+</head>
+
+<body>
+  <div style="margin-top: 50px;">
+    <pre id="editor"></pre>
+  </div>
+   <script src="src/ace.js" type="text/javascript" charset="utf-8"></script>
+   <script>
+     var editor = ace.edit("editor");
+     editor.setTheme("ace/theme/1c");
+     editor.session.setMode("ace/mode/1c");
+   </script>
+</body>
+
+</html>

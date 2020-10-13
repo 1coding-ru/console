@@ -1,0 +1,23 @@
+
+h1 {
+  font-family: Courier, sans-serif;
+  color: white;
+}
+
+#editor {
+  width: 100%;
+  height: 400px;
+  font-family: Courier, sans-serif;
+  font-size: 18px;
+  border-radius: 10px;
+  
+}
+
+.secondary {
+  color: white;
+}
+/*
+.custom-control-label::before {
+  background-color: #00ff55 !important;
+}
+*/
