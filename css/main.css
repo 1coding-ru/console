@@ -1,4 +1,9 @@
 
+body { 
+ overflow: hidden;
+}
+
+
 h1 {
   font-family: Courier, sans-serif;
   color: white;
@@ -6,15 +11,24 @@ h1 {
 
 #editor {
   width: 100%;
-  height: 400px;
+  min-height: 400px;
+  height: 100vh;
   font-family: Courier, sans-serif;
   font-size: 18px;
   border-radius: 10px;
-  
 }
 
 .secondary {
   color: white;
+}
+
+
+.ace-1c .ace_gutter {
+  color: #afafaf;
+}
+
+.ace-tm .ace_print-margin {
+  background: transparent !important;
 }
 /*
 .custom-control-label::before {

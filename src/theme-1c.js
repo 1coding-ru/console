@@ -14,7 +14,7 @@ define("ace/theme/1c", [
     }\
     .ace-1c .ace_print-margin {\
     width: 1px;\
-    background: #131313\
+    background: transparent;\
     }\
     .ace-1c {\
     background-color: #ffffff;\
@@ -87,7 +87,7 @@ define("ace/theme/1c", [
     border-color: #70F8F8\
     }\
     .ace-1c .ace_support.ace_function {\
-    color: #FF0000\
+    color: #0000FF\
     }\
     .ace-1c .ace_list,\
     .ace-1c .ace_markup.ace_list,\
